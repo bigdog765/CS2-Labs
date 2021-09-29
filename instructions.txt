@@ -1,0 +1,15 @@
+For this lab you will be modifying the existing LinkedList.cpp file to now work as a doubly linked list. 
+The ListLinked.h file is updated with new *prev and *tail pointers, an update to the constructor's definition that you must include in your ListLinked.cpp, 
+and two new functions: moveForwardN and moveBackwardN.
+
+You must make updates to:
+-Constructor
+-Insert
+-Remove (update the 3 if/else statements to update ->prev pointer)
+-goToPrior (to now include implementation with cursor->prev)
+
+
+Lastly, you must write the moveForwardN and moveBackwardN functions at the end of the ListLinked.cpp file. 
+These two functions either move you forward or backward n nodes in your linked list. 
+If your loop goes out of bounds and the next or prev pointers ==0, then break out of the function.
+This will set your cursor to either the front or the end of the list depending on the chosen direction.
